@@ -1,0 +1,1 @@
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test123 -e MYSQL_DATABASE=todo-service mysql:5.7
